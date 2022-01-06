@@ -18,7 +18,7 @@
     <div class="app">
       <div class="left">
       <h2>Bill</h2>
-      <input type="number" id="bill" placeholder="€" />
+      <input type="number" id="bill" class="calculatorInput" placeholder="€" />
 
       <h2>Select Tip</h2>
       <div>
@@ -31,21 +31,21 @@
      
       </div>
       <h2>Number of People</h2>
-      <input type="number" id="nbrPeople" />
+      <input type="number" id="nbrPeople" class="calculatorInput"/>
     </div>  
       <div class="right">
         <div class="calcTipsAmount">
           <h3>Tip Amount <br><span class="retourLigne">/ person</span></h3>
-          <p class="price">0,00€</p>
+          <p class="price" id="tip-amount">0,00€</p>
         </div>
         <div class="calcTotal">
           <h3>Total <br> <span class="retourLigne">/ person</span></h3>
-          <p class="price">0,00€</p>
+          <p class="price" id="total-per">0,00€</p>
         </div>
         <button class="btnRight">Reset</button>
       </div>
     </div>
 
-
+<script src="./script.js"></script>
   </body>
 </html>
